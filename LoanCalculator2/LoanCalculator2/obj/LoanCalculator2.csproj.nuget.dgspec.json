@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Hector\\OneDrive\\Desktop\\Capstone\\LoanCalculator2\\LoanCalculator2\\LoanCalculator2\\LoanCalculator2.csproj": {}
+    "C:\\Users\\Hector\\source\\repos\\ToDo-app\\LoanCalculator2\\LoanCalculator2\\LoanCalculator2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Hector\\OneDrive\\Desktop\\Capstone\\LoanCalculator2\\LoanCalculator2\\LoanCalculator2\\LoanCalculator2.csproj": {
+    "C:\\Users\\Hector\\source\\repos\\ToDo-app\\LoanCalculator2\\LoanCalculator2\\LoanCalculator2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Hector\\OneDrive\\Desktop\\Capstone\\LoanCalculator2\\LoanCalculator2\\LoanCalculator2\\LoanCalculator2.csproj",
+        "projectUniqueName": "C:\\Users\\Hector\\source\\repos\\ToDo-app\\LoanCalculator2\\LoanCalculator2\\LoanCalculator2.csproj",
         "projectName": "LoanCalculator2",
-        "projectPath": "C:\\Users\\Hector\\OneDrive\\Desktop\\Capstone\\LoanCalculator2\\LoanCalculator2\\LoanCalculator2\\LoanCalculator2.csproj",
+        "projectPath": "C:\\Users\\Hector\\source\\repos\\ToDo-app\\LoanCalculator2\\LoanCalculator2\\LoanCalculator2.csproj",
         "packagesPath": "C:\\Users\\Hector\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Hector\\OneDrive\\Desktop\\Capstone\\LoanCalculator2\\LoanCalculator2\\LoanCalculator2\\obj\\",
+        "outputPath": "C:\\Users\\Hector\\source\\repos\\ToDo-app\\LoanCalculator2\\LoanCalculator2\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
