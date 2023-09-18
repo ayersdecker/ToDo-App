@@ -10,14 +10,14 @@
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>2820842b-6912-4153-b1b5-e8b99b45e4c7</PackageIdentityName>
     <PackageIdentityPublisher>CN=User Name</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\Hector\OneDrive\Desktop\Capstone\LoanCalculator2\LoanCalculator2\LoanCalculator2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Hector\source\repos\ToDo-app\LoanCalculator2\LoanCalculator2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
     <RemoteDeploymentType>CopyToDevice</RemoteDeploymentType>
     <PackageRegistrationPath>
     </PackageRegistrationPath>
     <RemoveNonLayoutFiles>false</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\Hector\OneDrive\Desktop\Capstone\LoanCalculator2\LoanCalculator2\LoanCalculator2\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
+    <LayoutDir>C:\Users\Hector\source\repos\ToDo-app\LoanCalculator2\LoanCalculator2\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
     <RegisteredManifestChecksum>F792A48FC537EC74EAD28AB6904CD01BDB02447C8D553190CF711197851C2C78</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>2820842b-6912-4153-b1b5-e8b99b45e4c7_1.0.0.1_x64__9zz4h110yvjzm</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>2820842b-6912-4153-b1b5-e8b99b45e4c7_9zz4h110yvjzm!App</RegisteredUserModeAppID>
@@ -26,28 +26,28 @@
     <RegisteredVersion>1.0.0.1</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Hector\OneDrive\Desktop\Capstone\LoanCalculator2\LoanCalculator2\LoanCalculator2\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Hector\source\repos\ToDo-app\LoanCalculator2\LoanCalculator2\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-09-10T05:53:11.316</Modified>
+      <Modified>2023-09-16T18:51:59.831</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Hector\OneDrive\Desktop\Capstone\LoanCalculator2\LoanCalculator2\LoanCalculator2\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Hector\source\repos\ToDo-app\LoanCalculator2\LoanCalculator2\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-09-10T05:53:10.273</Modified>
+      <Modified>2023-09-16T18:49:43.001</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Hector\OneDrive\Desktop\Capstone\LoanCalculator2\LoanCalculator2\LoanCalculator2\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\LoanCalculator2.runtimeconfig.json">
+    <AppxPackagedFile Include="C:\Users\Hector\source\repos\ToDo-app\LoanCalculator2\LoanCalculator2\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\LoanCalculator2.runtimeconfig.json">
       <PackagePath>LoanCalculator2.runtimeconfig.json</PackagePath>
-      <Modified>2023-09-10T05:53:09.486</Modified>
+      <Modified>2023-09-16T18:49:42.306</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Hector\OneDrive\Desktop\Capstone\LoanCalculator2\LoanCalculator2\LoanCalculator2\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\LoanCalculator2.dll">
+    <AppxPackagedFile Include="C:\Users\Hector\source\repos\ToDo-app\LoanCalculator2\LoanCalculator2\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\LoanCalculator2.dll">
       <PackagePath>LoanCalculator2.dll</PackagePath>
-      <Modified>2023-09-10T05:53:05.082</Modified>
+      <Modified>2023-09-16T18:49:37.931</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Hector\OneDrive\Desktop\Capstone\LoanCalculator2\LoanCalculator2\LoanCalculator2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
+    <AppxPackagedFile Include="C:\Users\Hector\source\repos\ToDo-app\LoanCalculator2\LoanCalculator2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>LoanCalculator2.exe</PackagePath>
-      <Modified>2023-09-10T05:53:05.124</Modified>
+      <Modified>2023-09-16T18:49:37.989</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Hector\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.9\runtimes\win-x64\lib\net7.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -805,6 +805,10 @@
       <PackagePath>WinRT.Runtime.dll</PackagePath>
       <Modified>2023-06-09T20:10:26.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Hector\.nuget\packages\communitytoolkit.mvvm\8.2.1\lib\net6.0\CommunityToolkit.Mvvm.dll">
+      <PackagePath>CommunityToolkit.Mvvm.dll</PackagePath>
+      <Modified>2023-07-05T18:52:50.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Hector\.nuget\packages\microsoft.extensions.configuration\7.0.0\lib\net7.0\Microsoft.Extensions.Configuration.dll">
       <PackagePath>Microsoft.Extensions.Configuration.dll</PackagePath>
       <Modified>2022-10-18T16:15:22.000</Modified>
@@ -917,9 +921,9 @@
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.dll</PackagePath>
       <Modified>2022-11-08T19:31:24.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Hector\OneDrive\Desktop\Capstone\LoanCalculator2\LoanCalculator2\LoanCalculator2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\LoanCalculator2.deps.json">
+    <AppxPackagedFile Include="C:\Users\Hector\source\repos\ToDo-app\LoanCalculator2\LoanCalculator2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\LoanCalculator2.deps.json">
       <PackagePath>LoanCalculator2.deps.json</PackagePath>
-      <Modified>2023-09-10T05:53:10.799</Modified>
+      <Modified>2023-09-16T18:51:59.373</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\dotnet\packs\Microsoft.Maui.Controls.Ref.win\7.0.86\ref\net7.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>
@@ -933,241 +937,241 @@
       <PackagePath>Microsoft.Maui.pri</PackagePath>
       <Modified>2023-04-25T20:26:28.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Hector\OneDrive\Desktop\Capstone\LoanCalculator2\LoanCalculator2\LoanCalculator2\Resources\Raw\AboutAssets.txt">
+    <AppxPackagedFile Include="C:\Users\Hector\source\repos\ToDo-app\LoanCalculator2\LoanCalculator2\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
       <Modified>2023-09-08T11:41:45.990</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Hector\OneDrive\Desktop\Capstone\LoanCalculator2\LoanCalculator2\LoanCalculator2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Hector\source\repos\ToDo-app\LoanCalculator2\LoanCalculator2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
-      <Modified>2023-09-10T05:53:02.997</Modified>
+      <Modified>2023-09-16T18:49:35.728</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Hector\OneDrive\Desktop\Capstone\LoanCalculator2\LoanCalculator2\LoanCalculator2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Hector\source\repos\ToDo-app\LoanCalculator2\LoanCalculator2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
       <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
-      <Modified>2023-09-10T05:53:03.030</Modified>
+      <Modified>2023-09-16T18:49:35.847</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Hector\OneDrive\Desktop\Capstone\LoanCalculator2\LoanCalculator2\LoanCalculator2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Hector\source\repos\ToDo-app\LoanCalculator2\LoanCalculator2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
       <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
-      <Modified>2023-09-10T05:53:03.072</Modified>
+      <Modified>2023-09-16T18:49:35.936</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Hector\OneDrive\Desktop\Capstone\LoanCalculator2\LoanCalculator2\LoanCalculator2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Hector\source\repos\ToDo-app\LoanCalculator2\LoanCalculator2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
       <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
-      <Modified>2023-09-10T05:53:03.134</Modified>
+      <Modified>2023-09-16T18:49:36.010</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Hector\OneDrive\Desktop\Capstone\LoanCalculator2\LoanCalculator2\LoanCalculator2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Hector\source\repos\ToDo-app\LoanCalculator2\LoanCalculator2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
-      <Modified>2023-09-10T05:53:03.410</Modified>
+      <Modified>2023-09-16T18:49:36.318</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Hector\OneDrive\Desktop\Capstone\LoanCalculator2\LoanCalculator2\LoanCalculator2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
+    <AppxPackagedFile Include="C:\Users\Hector\source\repos\ToDo-app\LoanCalculator2\LoanCalculator2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
       <Modified>2023-09-08T11:41:45.987</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Hector\OneDrive\Desktop\Capstone\LoanCalculator2\LoanCalculator2\LoanCalculator2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
+    <AppxPackagedFile Include="C:\Users\Hector\source\repos\ToDo-app\LoanCalculator2\LoanCalculator2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
       <PackagePath>OpenSans-Semibold.ttf</PackagePath>
       <Modified>2023-09-08T11:41:45.988</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Hector\OneDrive\Desktop\Capstone\LoanCalculator2\LoanCalculator2\LoanCalculator2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
+    <AppxPackagedFile Include="C:\Users\Hector\source\repos\ToDo-app\LoanCalculator2\LoanCalculator2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
-      <Modified>2023-09-10T05:53:03.496</Modified>
+      <Modified>2023-09-16T18:49:36.464</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Hector\OneDrive\Desktop\Capstone\LoanCalculator2\LoanCalculator2\LoanCalculator2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Hector\source\repos\ToDo-app\LoanCalculator2\LoanCalculator2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2023-09-10T05:53:04.442</Modified>
+      <Modified>2023-09-16T18:49:37.082</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Hector\OneDrive\Desktop\Capstone\LoanCalculator2\LoanCalculator2\LoanCalculator2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Hector\source\repos\ToDo-app\LoanCalculator2\LoanCalculator2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2023-09-10T05:53:04.464</Modified>
+      <Modified>2023-09-16T18:49:37.118</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Hector\OneDrive\Desktop\Capstone\LoanCalculator2\LoanCalculator2\LoanCalculator2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Hector\source\repos\ToDo-app\LoanCalculator2\LoanCalculator2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2023-09-10T05:53:04.484</Modified>
+      <Modified>2023-09-16T18:49:37.150</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Hector\OneDrive\Desktop\Capstone\LoanCalculator2\LoanCalculator2\LoanCalculator2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Hector\source\repos\ToDo-app\LoanCalculator2\LoanCalculator2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2023-09-10T05:53:04.520</Modified>
+      <Modified>2023-09-16T18:49:37.188</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Hector\OneDrive\Desktop\Capstone\LoanCalculator2\LoanCalculator2\LoanCalculator2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Hector\source\repos\ToDo-app\LoanCalculator2\LoanCalculator2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2023-09-10T05:53:04.665</Modified>
+      <Modified>2023-09-16T18:49:37.345</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Hector\OneDrive\Desktop\Capstone\LoanCalculator2\LoanCalculator2\LoanCalculator2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\Hector\source\repos\ToDo-app\LoanCalculator2\LoanCalculator2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
-      <Modified>2023-09-10T05:53:03.643</Modified>
+      <Modified>2023-09-16T18:49:36.626</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Hector\OneDrive\Desktop\Capstone\LoanCalculator2\LoanCalculator2\LoanCalculator2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\Hector\source\repos\ToDo-app\LoanCalculator2\LoanCalculator2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
-      <Modified>2023-09-10T05:53:03.649</Modified>
+      <Modified>2023-09-16T18:49:36.635</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Hector\OneDrive\Desktop\Capstone\LoanCalculator2\LoanCalculator2\LoanCalculator2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\Hector\source\repos\ToDo-app\LoanCalculator2\LoanCalculator2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-      <Modified>2023-09-10T05:53:03.682</Modified>
+      <Modified>2023-09-16T18:49:36.665</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Hector\OneDrive\Desktop\Capstone\LoanCalculator2\LoanCalculator2\LoanCalculator2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\Hector\source\repos\ToDo-app\LoanCalculator2\LoanCalculator2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-      <Modified>2023-09-10T05:53:03.656</Modified>
+      <Modified>2023-09-16T18:49:36.641</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Hector\OneDrive\Desktop\Capstone\LoanCalculator2\LoanCalculator2\LoanCalculator2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\Hector\source\repos\ToDo-app\LoanCalculator2\LoanCalculator2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-      <Modified>2023-09-10T05:53:03.664</Modified>
+      <Modified>2023-09-16T18:49:36.648</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Hector\OneDrive\Desktop\Capstone\LoanCalculator2\LoanCalculator2\LoanCalculator2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\Hector\source\repos\ToDo-app\LoanCalculator2\LoanCalculator2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
-      <Modified>2023-09-10T05:53:03.601</Modified>
+      <Modified>2023-09-16T18:49:36.583</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Hector\OneDrive\Desktop\Capstone\LoanCalculator2\LoanCalculator2\LoanCalculator2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\Hector\source\repos\ToDo-app\LoanCalculator2\LoanCalculator2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
-      <Modified>2023-09-10T05:53:03.607</Modified>
+      <Modified>2023-09-16T18:49:36.590</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Hector\OneDrive\Desktop\Capstone\LoanCalculator2\LoanCalculator2\LoanCalculator2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\Hector\source\repos\ToDo-app\LoanCalculator2\LoanCalculator2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
-      <Modified>2023-09-10T05:53:03.637</Modified>
+      <Modified>2023-09-16T18:49:36.620</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Hector\OneDrive\Desktop\Capstone\LoanCalculator2\LoanCalculator2\LoanCalculator2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\Hector\source\repos\ToDo-app\LoanCalculator2\LoanCalculator2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
-      <Modified>2023-09-10T05:53:03.614</Modified>
+      <Modified>2023-09-16T18:49:36.597</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Hector\OneDrive\Desktop\Capstone\LoanCalculator2\LoanCalculator2\LoanCalculator2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\Hector\source\repos\ToDo-app\LoanCalculator2\LoanCalculator2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
-      <Modified>2023-09-10T05:53:03.621</Modified>
+      <Modified>2023-09-16T18:49:36.603</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Hector\OneDrive\Desktop\Capstone\LoanCalculator2\LoanCalculator2\LoanCalculator2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Hector\source\repos\ToDo-app\LoanCalculator2\LoanCalculator2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2023-09-10T05:53:03.515</Modified>
+      <Modified>2023-09-16T18:49:36.488</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Hector\OneDrive\Desktop\Capstone\LoanCalculator2\LoanCalculator2\LoanCalculator2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Hector\source\repos\ToDo-app\LoanCalculator2\LoanCalculator2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2023-09-10T05:53:03.524</Modified>
+      <Modified>2023-09-16T18:49:36.493</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Hector\OneDrive\Desktop\Capstone\LoanCalculator2\LoanCalculator2\LoanCalculator2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Hector\source\repos\ToDo-app\LoanCalculator2\LoanCalculator2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2023-09-10T05:53:03.534</Modified>
+      <Modified>2023-09-16T18:49:36.502</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Hector\OneDrive\Desktop\Capstone\LoanCalculator2\LoanCalculator2\LoanCalculator2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Hector\source\repos\ToDo-app\LoanCalculator2\LoanCalculator2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2023-09-10T05:53:03.541</Modified>
+      <Modified>2023-09-16T18:49:36.510</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Hector\OneDrive\Desktop\Capstone\LoanCalculator2\LoanCalculator2\LoanCalculator2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Hector\source\repos\ToDo-app\LoanCalculator2\LoanCalculator2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2023-09-10T05:53:03.552</Modified>
+      <Modified>2023-09-16T18:49:36.523</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Hector\OneDrive\Desktop\Capstone\LoanCalculator2\LoanCalculator2\LoanCalculator2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\Hector\source\repos\ToDo-app\LoanCalculator2\LoanCalculator2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
-      <Modified>2023-09-10T05:53:03.558</Modified>
+      <Modified>2023-09-16T18:49:36.532</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Hector\OneDrive\Desktop\Capstone\LoanCalculator2\LoanCalculator2\LoanCalculator2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\Hector\source\repos\ToDo-app\LoanCalculator2\LoanCalculator2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
-      <Modified>2023-09-10T05:53:03.565</Modified>
+      <Modified>2023-09-16T18:49:36.538</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Hector\OneDrive\Desktop\Capstone\LoanCalculator2\LoanCalculator2\LoanCalculator2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\Hector\source\repos\ToDo-app\LoanCalculator2\LoanCalculator2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
-      <Modified>2023-09-10T05:53:03.594</Modified>
+      <Modified>2023-09-16T18:49:36.575</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Hector\OneDrive\Desktop\Capstone\LoanCalculator2\LoanCalculator2\LoanCalculator2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\Hector\source\repos\ToDo-app\LoanCalculator2\LoanCalculator2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
-      <Modified>2023-09-10T05:53:03.571</Modified>
+      <Modified>2023-09-16T18:49:36.545</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Hector\OneDrive\Desktop\Capstone\LoanCalculator2\LoanCalculator2\LoanCalculator2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\Hector\source\repos\ToDo-app\LoanCalculator2\LoanCalculator2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
-      <Modified>2023-09-10T05:53:03.578</Modified>
+      <Modified>2023-09-16T18:49:36.552</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Hector\OneDrive\Desktop\Capstone\LoanCalculator2\LoanCalculator2\LoanCalculator2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Hector\source\repos\ToDo-app\LoanCalculator2\LoanCalculator2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2023-09-10T05:53:03.796</Modified>
+      <Modified>2023-09-16T18:49:36.778</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Hector\OneDrive\Desktop\Capstone\LoanCalculator2\LoanCalculator2\LoanCalculator2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Hector\source\repos\ToDo-app\LoanCalculator2\LoanCalculator2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2023-09-10T05:53:04.143</Modified>
+      <Modified>2023-09-16T18:49:36.797</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Hector\OneDrive\Desktop\Capstone\LoanCalculator2\LoanCalculator2\LoanCalculator2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Hector\source\repos\ToDo-app\LoanCalculator2\LoanCalculator2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2023-09-10T05:53:04.170</Modified>
+      <Modified>2023-09-16T18:49:36.816</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Hector\OneDrive\Desktop\Capstone\LoanCalculator2\LoanCalculator2\LoanCalculator2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Hector\source\repos\ToDo-app\LoanCalculator2\LoanCalculator2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2023-09-10T05:53:04.206</Modified>
+      <Modified>2023-09-16T18:49:36.837</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Hector\OneDrive\Desktop\Capstone\LoanCalculator2\LoanCalculator2\LoanCalculator2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Hector\source\repos\ToDo-app\LoanCalculator2\LoanCalculator2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2023-09-10T05:53:04.263</Modified>
+      <Modified>2023-09-16T18:49:36.873</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Hector\OneDrive\Desktop\Capstone\LoanCalculator2\LoanCalculator2\LoanCalculator2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Hector\source\repos\ToDo-app\LoanCalculator2\LoanCalculator2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2023-09-10T05:53:03.740</Modified>
+      <Modified>2023-09-16T18:49:36.718</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Hector\OneDrive\Desktop\Capstone\LoanCalculator2\LoanCalculator2\LoanCalculator2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Hector\source\repos\ToDo-app\LoanCalculator2\LoanCalculator2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2023-09-10T05:53:03.746</Modified>
+      <Modified>2023-09-16T18:49:36.730</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Hector\OneDrive\Desktop\Capstone\LoanCalculator2\LoanCalculator2\LoanCalculator2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Hector\source\repos\ToDo-app\LoanCalculator2\LoanCalculator2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2023-09-10T05:53:03.757</Modified>
+      <Modified>2023-09-16T18:49:36.739</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Hector\OneDrive\Desktop\Capstone\LoanCalculator2\LoanCalculator2\LoanCalculator2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Hector\source\repos\ToDo-app\LoanCalculator2\LoanCalculator2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2023-09-10T05:53:03.767</Modified>
+      <Modified>2023-09-16T18:49:36.749</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Hector\OneDrive\Desktop\Capstone\LoanCalculator2\LoanCalculator2\LoanCalculator2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Hector\source\repos\ToDo-app\LoanCalculator2\LoanCalculator2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2023-09-10T05:53:03.786</Modified>
+      <Modified>2023-09-16T18:49:36.765</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Hector\OneDrive\Desktop\Capstone\LoanCalculator2\LoanCalculator2\LoanCalculator2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Hector\source\repos\ToDo-app\LoanCalculator2\LoanCalculator2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2023-09-10T05:53:03.689</Modified>
+      <Modified>2023-09-16T18:49:36.673</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Hector\OneDrive\Desktop\Capstone\LoanCalculator2\LoanCalculator2\LoanCalculator2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Hector\source\repos\ToDo-app\LoanCalculator2\LoanCalculator2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2023-09-10T05:53:03.696</Modified>
+      <Modified>2023-09-16T18:49:36.680</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Hector\OneDrive\Desktop\Capstone\LoanCalculator2\LoanCalculator2\LoanCalculator2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Hector\source\repos\ToDo-app\LoanCalculator2\LoanCalculator2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2023-09-10T05:53:03.703</Modified>
+      <Modified>2023-09-16T18:49:36.687</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Hector\OneDrive\Desktop\Capstone\LoanCalculator2\LoanCalculator2\LoanCalculator2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Hector\source\repos\ToDo-app\LoanCalculator2\LoanCalculator2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2023-09-10T05:53:03.712</Modified>
+      <Modified>2023-09-16T18:49:36.695</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Hector\OneDrive\Desktop\Capstone\LoanCalculator2\LoanCalculator2\LoanCalculator2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Hector\source\repos\ToDo-app\LoanCalculator2\LoanCalculator2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2023-09-10T05:53:03.727</Modified>
+      <Modified>2023-09-16T18:49:36.710</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Hector\OneDrive\Desktop\Capstone\LoanCalculator2\LoanCalculator2\LoanCalculator2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Hector\source\repos\ToDo-app\LoanCalculator2\LoanCalculator2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2023-09-10T05:53:04.275</Modified>
+      <Modified>2023-09-16T18:49:36.886</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Hector\OneDrive\Desktop\Capstone\LoanCalculator2\LoanCalculator2\LoanCalculator2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Hector\source\repos\ToDo-app\LoanCalculator2\LoanCalculator2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2023-09-10T05:53:04.292</Modified>
+      <Modified>2023-09-16T18:49:36.905</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Hector\OneDrive\Desktop\Capstone\LoanCalculator2\LoanCalculator2\LoanCalculator2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Hector\source\repos\ToDo-app\LoanCalculator2\LoanCalculator2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2023-09-10T05:53:04.311</Modified>
+      <Modified>2023-09-16T18:49:36.927</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Hector\OneDrive\Desktop\Capstone\LoanCalculator2\LoanCalculator2\LoanCalculator2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Hector\source\repos\ToDo-app\LoanCalculator2\LoanCalculator2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2023-09-10T05:53:04.339</Modified>
+      <Modified>2023-09-16T18:49:36.954</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Hector\OneDrive\Desktop\Capstone\LoanCalculator2\LoanCalculator2\LoanCalculator2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Hector\source\repos\ToDo-app\LoanCalculator2\LoanCalculator2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2023-09-10T05:53:04.418</Modified>
+      <Modified>2023-09-16T18:49:37.048</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Hector\OneDrive\Desktop\Capstone\LoanCalculator2\LoanCalculator2\LoanCalculator2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Hector\source\repos\ToDo-app\LoanCalculator2\LoanCalculator2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2023-09-10T05:53:03.611</Modified>
+      <Modified>2023-09-16T18:49:36.558</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Hector\OneDrive\Desktop\Capstone\LoanCalculator2\LoanCalculator2\LoanCalculator2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Hector\source\repos\ToDo-app\LoanCalculator2\LoanCalculator2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2023-09-10T05:53:03.634</Modified>
+      <Modified>2023-09-16T18:49:36.583</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Hector\OneDrive\Desktop\Capstone\LoanCalculator2\LoanCalculator2\LoanCalculator2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Hector\source\repos\ToDo-app\LoanCalculator2\LoanCalculator2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2023-09-10T05:53:03.665</Modified>
+      <Modified>2023-09-16T18:49:36.615</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Hector\OneDrive\Desktop\Capstone\LoanCalculator2\LoanCalculator2\LoanCalculator2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Hector\source\repos\ToDo-app\LoanCalculator2\LoanCalculator2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2023-09-10T05:53:03.712</Modified>
+      <Modified>2023-09-16T18:49:36.666</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Hector\OneDrive\Desktop\Capstone\LoanCalculator2\LoanCalculator2\LoanCalculator2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Hector\source\repos\ToDo-app\LoanCalculator2\LoanCalculator2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2023-09-10T05:53:04.168</Modified>
+      <Modified>2023-09-16T18:49:36.796</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

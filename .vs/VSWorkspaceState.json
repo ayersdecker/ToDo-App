@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\LoanCalculator2"
+    "\\LoanCalculator2",
+    "\\LoanCalculator2\\LoanCalculator2"
   ],
-  "SelectedNode": "\\LoanCalculator2\\LoanCalculator2.sln",
+  "SelectedNode": "\\LoanCalculator2\\LoanCalculator2\\LoanCalculator2.csproj",
   "PreviewInSolutionExplorer": false
 }

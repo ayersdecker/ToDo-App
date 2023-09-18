@@ -1,4 +1,5 @@
-﻿using LoanCalculator2.ViewModel;
+﻿using CommunityToolkit.Maui;
+using LoanCalculator2.ViewModel;
 using Microsoft.Extensions.Logging;
 
 namespace LoanCalculator2;
@@ -10,8 +11,10 @@ public static class MauiProgram
 		var builder = MauiApp.CreateBuilder();
 		builder
 			.UseMauiApp<App>()
-			
-			.ConfigureFonts(fonts =>
+            .UseMauiCommunityToolkit()
+
+
+            .ConfigureFonts(fonts =>
 			{
 				fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
 				fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");

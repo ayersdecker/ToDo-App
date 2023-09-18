@@ -1,4 +1,5 @@
 ﻿using LoanCalculator2.ViewModel;
+using CommunityToolkit.Maui;
 
 namespace LoanCalculator2;
 
