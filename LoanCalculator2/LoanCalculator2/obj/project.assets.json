@@ -25733,26 +25733,29 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Hector\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\draye\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Hector\\source\\repos\\ToDo-app\\LoanCalculator2\\LoanCalculator2\\LoanCalculator2.csproj",
+      "projectUniqueName": "C:\\Users\\draye\\source\\repos\\Todov2\\LoanCalculator2\\LoanCalculator2\\LoanCalculator2.csproj",
       "projectName": "LoanCalculator2",
-      "projectPath": "C:\\Users\\Hector\\source\\repos\\ToDo-app\\LoanCalculator2\\LoanCalculator2\\LoanCalculator2.csproj",
-      "packagesPath": "C:\\Users\\Hector\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Hector\\source\\repos\\ToDo-app\\LoanCalculator2\\LoanCalculator2\\obj\\",
+      "projectPath": "C:\\Users\\draye\\source\\repos\\Todov2\\LoanCalculator2\\LoanCalculator2\\LoanCalculator2.csproj",
+      "packagesPath": "C:\\Users\\draye\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\draye\\source\\repos\\Todov2\\LoanCalculator2\\LoanCalculator2\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\Hector\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\draye\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net7.0-android",

@@ -1,5 +1,6 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
+using LoanCalculator2.Models;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
 
@@ -12,15 +13,20 @@ namespace LoanCalculator2.ViewModel
 
         public MainViewModel(IConnectivity connectivity)
         {
-            Items = new ObservableCollection<string>();
+            Items = new ObservableCollection<TodoModel>();
             this.connectivity = connectivity;
         }
 
         [ObservableProperty]
-        ObservableCollection<string> items;
+        ObservableCollection<TodoModel> items;
 
         [ObservableProperty]
         string text;
+        [ObservableProperty]
+        string description;
+        [ObservableProperty]
+        string priority;
+
 
         [RelayCommand]
        async Task Add()
@@ -34,18 +40,19 @@ namespace LoanCalculator2.ViewModel
                 return;
             }
 
-            Items.Add(Text);
+            Items.Add(new TodoModel(Text));
             //add our item
             Text = string.Empty;
         }
-
+        
 
         [RelayCommand]
         void Delete(string s)
         {
-            if(Items.Contains(s))
+            TodoModel todo = new(s);
+            if(Items.Contains(todo))
             {
-                Items.Remove(s);
+                Items.Remove(todo);
             }
         }
         [RelayCommand]
