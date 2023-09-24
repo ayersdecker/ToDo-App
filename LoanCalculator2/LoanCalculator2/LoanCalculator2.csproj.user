@@ -3,7 +3,7 @@
   <PropertyGroup>
     <IsFirstTimeProjectOpen>False</IsFirstTimeProjectOpen>
     <ActiveDebugFramework>net7.0-android</ActiveDebugFramework>
-    <ActiveDebugProfile>Google Pixel 3a (Android 12.1 - API 32)</ActiveDebugProfile>
+    <ActiveDebugProfile>(Virtual) Pixel 4a (Android 13.0 - API 33)</ActiveDebugProfile>
     <SelectedPlatformGroup>PhysicalDevice</SelectedPlatformGroup>
     <DefaultDevice>pixel_5_-_api_28</DefaultDevice>
   </PropertyGroup>
