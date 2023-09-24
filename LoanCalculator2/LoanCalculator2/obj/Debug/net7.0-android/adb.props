@@ -1,2 +1,6 @@
+<<<<<<< HEAD
 AdbTarget=-s emulator-5554
+=======
+AdbTarget=
+>>>>>>> 480e08104f4dc8fdccf129594f8ddc713daebb0a
 AdbOptions=

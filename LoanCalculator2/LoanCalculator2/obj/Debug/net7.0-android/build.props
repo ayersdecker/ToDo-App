@@ -27,5 +27,9 @@ androidincludedebugsymbols=true
 androidpackagenamingpolicy=lowercasecrc64
 _nugetassetstimestamp=
 typemapkind=strings-asm
+<<<<<<< HEAD
 androidsupportedabis=x86_64
+=======
+androidsupportedabis=armeabi-v7a;arm64-v8a;x86;x86_64
+>>>>>>> 480e08104f4dc8fdccf129594f8ddc713daebb0a
 androidmanifestplaceholders=

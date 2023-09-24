@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "C:\\Users\\ayers\\source\\repos\\Todo-App\\LoanCalculator2\\LoanCalculator2\\LoanCalculator2.csproj": {}
   },
   "projects": {
@@ -12,6 +13,19 @@
         "projectPath": "C:\\Users\\ayers\\source\\repos\\Todo-App\\LoanCalculator2\\LoanCalculator2\\LoanCalculator2.csproj",
         "packagesPath": "C:\\Users\\ayers\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\ayers\\source\\repos\\Todo-App\\LoanCalculator2\\LoanCalculator2\\obj\\",
+=======
+    "C:\\Users\\draye\\source\\repos\\Todov2\\LoanCalculator2\\LoanCalculator2\\LoanCalculator2.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\draye\\source\\repos\\Todov2\\LoanCalculator2\\LoanCalculator2\\LoanCalculator2.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\draye\\source\\repos\\Todov2\\LoanCalculator2\\LoanCalculator2\\LoanCalculator2.csproj",
+        "projectName": "LoanCalculator2",
+        "projectPath": "C:\\Users\\draye\\source\\repos\\Todov2\\LoanCalculator2\\LoanCalculator2\\LoanCalculator2.csproj",
+        "packagesPath": "C:\\Users\\draye\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\draye\\source\\repos\\Todov2\\LoanCalculator2\\LoanCalculator2\\obj\\",
+>>>>>>> 480e08104f4dc8fdccf129594f8ddc713daebb0a
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
@@ -19,7 +33,11 @@
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
+<<<<<<< HEAD
           "C:\\Users\\ayers\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+          "C:\\Users\\draye\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> 480e08104f4dc8fdccf129594f8ddc713daebb0a
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
