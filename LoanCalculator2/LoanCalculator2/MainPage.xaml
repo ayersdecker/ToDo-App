@@ -4,101 +4,27 @@
              x:Class="LoanCalculator2.MainPage"
              xmlns:viewmodel="clr-namespace:LoanCalculator2.ViewModel"
              x:DataType="viewmodel:MainViewModel"
-<<<<<<< HEAD
-             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit">        
-   
-=======
              Title="Todo List"
              xmlns:local="clr-namespace:LoanCalculator2.Models"
              xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit">
+   
 
->>>>>>> 480e08104f4dc8fdccf129594f8ddc713daebb0a
-    <!--<Grid RowDefinitions="100,Auto,*"
-          ColumnDefinitions=".75*,.25*"
-          Padding="10"
-          RowSpacing="10"
-          ColumnSpacing="10"
-          IsVisible="false">
-        
-        <Image Grid.ColumnSpan="2"
-               Source="dotnet_bot.png"
-               BackgroundColor="Transparent">
-        </Image>
+
+    <VerticalStackLayout BackgroundColor="Black">
         <Entry Placeholder="Enter Task"
                Grid.Row="1"
                Text="{Binding Text}"/>
         <Button Text="Add"
-                BackgroundColor="Aqua"
-                Command="{Binding AddCommand}"
-                Grid.Row="1"
-                Grid.Column="1"/>
-        <CollectionView Grid.Row="2" Grid.ColumnSpan="2"
-                        ItemsSource="{Binding Items}"
-                        SelectionMode="None">
-            <CollectionView.ItemTemplate>
-                <DataTemplate x:DataType="{x:Type x:String}">
-    
-    
-    
-                    <SwipeView>
-                        <SwipeView.RightItems>
-                            <SwipeItems>
-                                <SwipeItem Text="Delete"
-                                           BackgroundColor="Red"
-                                           Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:MainViewModel}},Path = DeleteCommand}"
-                                           CommandParameter="{Binding .}"/>
-
-                            </SwipeItems>
-                        </SwipeView.RightItems>
-
-                        <Grid Padding="0,5">
-                            <Frame>
-                                <Frame.GestureRecognizers>
-                                    <TapGestureRecognizer
-                                        Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:MainViewModel}},Path = TapCommand}"
-                                        CommandParameter="{Binding .}"/>
-
-
-                                </Frame.GestureRecognizers>
-                                <Label Text="{Binding .}"
-                                       FontSize="24"/>
-                            </Frame>
-                        </Grid>
-                    </SwipeView>
-                </DataTemplate>
-            </CollectionView.ItemTemplate>
-        </CollectionView>
-
-    </Grid>-->
-<<<<<<< HEAD
-    <Image Grid.ColumnSpan="2"
-               Source="dotnet_bot.png"
-               BackgroundColor="Transparent">
-    </Image>
-=======
-    
-    
-    <VerticalStackLayout BackgroundColor="Black">
->>>>>>> 480e08104f4dc8fdccf129594f8ddc713daebb0a
-    <Entry Placeholder="Enter Task"
-               Grid.Row="1"
-               Text="{Binding Text}"/>
-    <Button Text="Add"
-<<<<<<< HEAD
-                BackgroundColor="Aqua"
-                Command="{Binding AddCommand}"
-=======
             TextColor="Black"
                 Command="{Binding AddCommand}"
                 WidthRequest="200"
->>>>>>> 480e08104f4dc8fdccf129594f8ddc713daebb0a
                 Grid.Row="1"
                 Grid.Column="1"/>
-    <CollectionView ItemsSource="{Binding Items}">
-        <CollectionView.ItemTemplate>
-            <DataTemplate x:DataType="local:TodoModel">
-                <toolkit:Expander BackgroundColor="#333">
-                    <toolkit:Expander.Header>
+        <CollectionView ItemsSource="{Binding Items}">
+            <CollectionView.ItemTemplate>
+                <DataTemplate x:DataType="local:TodoModel">
+                    <toolkit:Expander BackgroundColor="#333">
+                        <toolkit:Expander.Header>
                             <HorizontalStackLayout Spacing="10">
                                 <CheckBox VerticalOptions="Center"/>
                                 <HorizontalStackLayout HorizontalOptions="Center">
@@ -110,14 +36,14 @@
                                FontAttributes="Bold"
                                            Margin="10,0"
                                FontSize="Medium"/>
-                                <Label VerticalOptions="Center"
+                                    <Label VerticalOptions="Center"
                                        Text="{Binding DateTime}"/>
                                 </HorizontalStackLayout>
-                                
-                                
+
+
                             </HorizontalStackLayout>
                         </toolkit:Expander.Header>
-                    <Grid HeightRequest="200" Margin="10">
+                        <Grid HeightRequest="200" Margin="10">
                             <Grid.RowDefinitions>
                                 <RowDefinition/>
                                 <RowDefinition/>
@@ -136,12 +62,9 @@
                             </Picker>
                             <Editor Placeholder="Description Goes Here" Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="0" Grid.RowSpan="2" Text="{Binding Description}" TextColor="White"/>
                         </Grid>
-                </toolkit:Expander>
-            </DataTemplate>
-        </CollectionView.ItemTemplate>
-    </CollectionView>
-<<<<<<< HEAD
-=======
+                    </toolkit:Expander>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
     </VerticalStackLayout>
->>>>>>> 480e08104f4dc8fdccf129594f8ddc713daebb0a
 </ContentPage>

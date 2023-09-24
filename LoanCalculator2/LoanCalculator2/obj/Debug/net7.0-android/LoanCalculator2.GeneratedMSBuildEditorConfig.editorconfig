@@ -12,65 +12,39 @@ build_property.EnableSingleFileAnalyzer = true
 build_property.EnableTrimAnalyzer = false
 build_property.IncludeAllContentForSelfExtract = 
 build_property.RootNamespace = LoanCalculator2
-<<<<<<< HEAD
-build_property.ProjectDir = C:\Users\ayers\source\repos\Todo-App\LoanCalculator2\LoanCalculator2\
+build_property.ProjectDir = C:\Users\ayers\source\repos\TodoV2\LoanCalculator2\LoanCalculator2\
 
-[C:/Users/ayers/source/repos/Todo-App/LoanCalculator2/LoanCalculator2/App.xaml]
-=======
-build_property.ProjectDir = C:\Users\draye\source\repos\Todov2\LoanCalculator2\LoanCalculator2\
-
-[C:/Users/draye/source/repos/Todov2/LoanCalculator2/LoanCalculator2/App.xaml]
->>>>>>> 480e08104f4dc8fdccf129594f8ddc713daebb0a
+[C:/Users/ayers/source/repos/TodoV2/LoanCalculator2/LoanCalculator2/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = LoanCalculator2.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-<<<<<<< HEAD
-[C:/Users/ayers/source/repos/Todo-App/LoanCalculator2/LoanCalculator2/AppShell.xaml]
-=======
-[C:/Users/draye/source/repos/Todov2/LoanCalculator2/LoanCalculator2/AppShell.xaml]
->>>>>>> 480e08104f4dc8fdccf129594f8ddc713daebb0a
+[C:/Users/ayers/source/repos/TodoV2/LoanCalculator2/LoanCalculator2/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = LoanCalculator2.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-<<<<<<< HEAD
-[C:/Users/ayers/source/repos/Todo-App/LoanCalculator2/LoanCalculator2/DetailPage.xaml]
-=======
-[C:/Users/draye/source/repos/Todov2/LoanCalculator2/LoanCalculator2/DetailPage.xaml]
->>>>>>> 480e08104f4dc8fdccf129594f8ddc713daebb0a
+[C:/Users/ayers/source/repos/TodoV2/LoanCalculator2/LoanCalculator2/DetailPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = LoanCalculator2.DetailPage.xaml
 build_metadata.AdditionalFiles.TargetPath = DetailPage.xaml
 build_metadata.AdditionalFiles.RelativePath = DetailPage.xaml
 
-<<<<<<< HEAD
-[C:/Users/ayers/source/repos/Todo-App/LoanCalculator2/LoanCalculator2/MainPage.xaml]
-=======
-[C:/Users/draye/source/repos/Todov2/LoanCalculator2/LoanCalculator2/MainPage.xaml]
->>>>>>> 480e08104f4dc8fdccf129594f8ddc713daebb0a
+[C:/Users/ayers/source/repos/TodoV2/LoanCalculator2/LoanCalculator2/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = LoanCalculator2.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-<<<<<<< HEAD
-[C:/Users/ayers/source/repos/Todo-App/LoanCalculator2/LoanCalculator2/Resources/Styles/Colors.xaml]
-=======
-[C:/Users/draye/source/repos/Todov2/LoanCalculator2/LoanCalculator2/Resources/Styles/Colors.xaml]
->>>>>>> 480e08104f4dc8fdccf129594f8ddc713daebb0a
+[C:/Users/ayers/source/repos/TodoV2/LoanCalculator2/LoanCalculator2/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = LoanCalculator2.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-<<<<<<< HEAD
-[C:/Users/ayers/source/repos/Todo-App/LoanCalculator2/LoanCalculator2/Resources/Styles/Styles.xaml]
-=======
-[C:/Users/draye/source/repos/Todov2/LoanCalculator2/LoanCalculator2/Resources/Styles/Styles.xaml]
->>>>>>> 480e08104f4dc8fdccf129594f8ddc713daebb0a
+[C:/Users/ayers/source/repos/TodoV2/LoanCalculator2/LoanCalculator2/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = LoanCalculator2.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
