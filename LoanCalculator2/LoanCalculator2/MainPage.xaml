@@ -6,10 +6,8 @@
              x:DataType="viewmodel:MainViewModel"
              Title="Todo List"
              xmlns:local="clr-namespace:LoanCalculator2.Models"
-             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit">
-   
-
-
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit" >
+    
     <VerticalStackLayout BackgroundColor="Black">
         <Entry Placeholder="Enter Task"
                Margin="10"
@@ -17,7 +15,8 @@
                Text="{Binding Text}"/>
         <Button Text="Add"
                 Margin="10,0,10,20"
-                TextColor="Black"
+                TextColor="Yellow"
+                BackgroundColor="#000"
                 HorizontalOptions="End"
                 Command="{Binding AddCommand}"
                 WidthRequest="200"
@@ -34,12 +33,19 @@
                                         <ColumnDefinition Width="50"/>
                                         <ColumnDefinition Width="*"/>
                                     </Grid.ColumnDefinitions>
-                                    <CheckBox VerticalOptions="Center" HorizontalOptions="Start" Grid.Column="0"/>
+                                    <CheckBox VerticalOptions="Center" HorizontalOptions="Start" Color="Yellow" Grid.Column="0"/>
                                     <HorizontalStackLayout HorizontalOptions="Center" Spacing="20" Grid.Column="1">
-                                        <Label VerticalOptions="Center" Text="Priority:"/>
-                                        <Label VerticalOptions="Center" Text="{Binding Priority}"/>
+                                        <HorizontalStackLayout Spacing="5">
+                                            <Label VerticalOptions="Center" Text="Priority:"/>
+                                            <Label VerticalOptions="Center" Text="{Binding Priority}" TextColor="Yellow"/>
+                                        </HorizontalStackLayout>
                                         <Label VerticalOptions="Center" Text="{Binding Todo}" TextColor="White" FontAttributes="Bold" Margin="10,0" FontSize="Medium"/>
-                                        <Label VerticalOptions="Center" Text="{Binding DateTime}"/>
+                                        <HorizontalStackLayout Spacing="5">
+                                            <Label VerticalOptions="Center" Text="Due:"/>
+                                            <Label VerticalOptions="Center" Text="{Binding GetDate}" TextColor="Yellow"/>
+                                            <Label VerticalOptions="Center" Text="{Binding GetTime}" TextColor="Yellow"/>
+                                        </HorizontalStackLayout>
+                                        
                                     </HorizontalStackLayout>
                                 </Grid>
                             </Frame>
@@ -54,18 +60,20 @@
                                 <ColumnDefinition/>
                                 <ColumnDefinition/>
                             </Grid.ColumnDefinitions>
-                            <Picker Title="Priority" Grid.Column="0" Grid.Row="0" HorizontalOptions="Center" SelectedItem="{Binding Priority}">
+                            <Picker Title="Priority" Grid.Column="0" Grid.Row="0" HorizontalOptions="Center" SelectedItem="{Binding Priority}" >
                                 <Picker.Items>
                                     <x:String>High</x:String>
                                     <x:String>Medium</x:String>
                                     <x:String>Low</x:String>
                                 </Picker.Items>
                             </Picker>
-                            <Editor Placeholder="Description Goes Here" Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="0" Grid.RowSpan="2" Text="{Binding Description}" TextColor="White"/>
+                            <Button Grid.Row="3" Grid.Column="0" Text="Save" Clicked="Save_Clicked"/>
+                            <Editor  Placeholder="Description Goes Here" Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="0" Grid.RowSpan="2" Text="{Binding Description}" TextColor="White"/>
                         </Grid>
                     </toolkit:Expander>
                 </DataTemplate>
             </CollectionView.ItemTemplate>
         </CollectionView>
     </VerticalStackLayout>
+    
 </ContentPage>

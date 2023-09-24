@@ -44,8 +44,4 @@ target triple = "x86_64-unknown-linux-android"
 !llvm.ident = !{!2}
 !0 = !{i32 1, !"wchar_size", i32 4}
 !1 = !{i32 7, !"PIC Level", i32 2}
-<<<<<<< HEAD
-!2 = !{!"Xamarin.Android remotes/origin/release/7.0.1xx @ af18b843d16f5ecad3171016fb66efecdb78c4bf"}
-=======
-!2 = !{!"Xamarin.Android remotes/origin/release/7.0.2xx @ 58a54aef5213e50e3e59008e244a64896fe971b6"}
->>>>>>> 480e08104f4dc8fdccf129594f8ddc713daebb0a
+!2 = !{!"Xamarin.Android remotes/origin/release/7.0.2xx @ a7e0eff127904fe24804423572ac38864346d200"}

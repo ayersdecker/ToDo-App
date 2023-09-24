@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6MTNxJXh72Fsj9teFk4Il8PGydcy+REdYX651vll4wjg89TjUFb0rECN+hUDpeVF1OdBlfS1Rs+/9jMhxkYQIw==",
+  "dgSpecHash": "e4xGD5ddoOnSoFCmhDzWsSxnsjyi5k5YMeAm4syyZFZ/OQJ3hGSKCfRYOmvZ4zQPhOhJxA/qy46GOhLx7Fzwaw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ayers\\source\\repos\\TodoV2\\LoanCalculator2\\LoanCalculator2\\LoanCalculator2.csproj",
+  "projectFilePath": "C:\\Users\\ayers\\source\\repos\\TodoV2\\LoanCalculator2\\LoanCalculator2\\Todo.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ayers\\.nuget\\packages\\communitytoolkit.maui\\5.3.0\\communitytoolkit.maui.5.3.0.nupkg.sha512",
     "C:\\Users\\ayers\\.nuget\\packages\\communitytoolkit.maui.core\\5.3.0\\communitytoolkit.maui.core.5.3.0.nupkg.sha512",

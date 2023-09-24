@@ -25749,9 +25749,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ayers\\source\\repos\\TodoV2\\LoanCalculator2\\LoanCalculator2\\LoanCalculator2.csproj",
-      "projectName": "LoanCalculator2",
-      "projectPath": "C:\\Users\\ayers\\source\\repos\\TodoV2\\LoanCalculator2\\LoanCalculator2\\LoanCalculator2.csproj",
+      "projectUniqueName": "C:\\Users\\ayers\\source\\repos\\TodoV2\\LoanCalculator2\\LoanCalculator2\\Todo.csproj",
+      "projectName": "Todo",
+      "projectPath": "C:\\Users\\ayers\\source\\repos\\TodoV2\\LoanCalculator2\\LoanCalculator2\\Todo.csproj",
       "packagesPath": "C:\\Users\\ayers\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\ayers\\source\\repos\\TodoV2\\LoanCalculator2\\LoanCalculator2\\obj\\",
       "projectStyle": "PackageReference",

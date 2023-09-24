@@ -16,11 +16,12 @@ namespace LoanCalculator2.Models
         public string Priority { get; set; }
         public DateTime DateTime { get; set; }
 
-        [RelayCommand]
-        void AddMore(TodoModel todoModel)
+        public string GetDate => DateTime.Now.AddDays(1).ToString("MM/dd");
+        public string GetTime => DateTime.Now.AddDays(1).ToString("hh:mm tt");
+
+        public TodoModel()
         {
         }
-
         public TodoModel(string Todo) 
         { 
             this.Todo = Todo;
@@ -42,5 +43,7 @@ namespace LoanCalculator2.Models
             this.Priority = Priority;
             DateTime = dateTime;
         }
+
+        
     }
 }
