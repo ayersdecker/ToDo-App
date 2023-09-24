@@ -12,10 +12,13 @@
 
     <VerticalStackLayout BackgroundColor="Black">
         <Entry Placeholder="Enter Task"
+               Margin="10"
                Grid.Row="1"
                Text="{Binding Text}"/>
         <Button Text="Add"
-            TextColor="Black"
+                Margin="10,0,10,20"
+                TextColor="Black"
+                HorizontalOptions="End"
                 Command="{Binding AddCommand}"
                 WidthRequest="200"
                 Grid.Row="1"
@@ -23,25 +26,23 @@
         <CollectionView ItemsSource="{Binding Items}">
             <CollectionView.ItemTemplate>
                 <DataTemplate x:DataType="local:TodoModel">
-                    <toolkit:Expander BackgroundColor="#333">
+                    <toolkit:Expander>
                         <toolkit:Expander.Header>
-                            <HorizontalStackLayout Spacing="10">
-                                <CheckBox VerticalOptions="Center"/>
-                                <HorizontalStackLayout HorizontalOptions="Center">
-                                    <Label VerticalOptions="Center" Text="Priority:"/>
-                                    <Label VerticalOptions="Center" Text="{Binding Priority}"/>
-                                    <Label VerticalOptions="Center"
-                                       Text="{Binding Todo}"
-                               TextColor="White"
-                               FontAttributes="Bold"
-                                           Margin="10,0"
-                               FontSize="Medium"/>
-                                    <Label VerticalOptions="Center"
-                                       Text="{Binding DateTime}"/>
-                                </HorizontalStackLayout>
-
-
-                            </HorizontalStackLayout>
+                            <Frame CornerRadius="20" BackgroundColor="#333">
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="50"/>
+                                        <ColumnDefinition Width="*"/>
+                                    </Grid.ColumnDefinitions>
+                                    <CheckBox VerticalOptions="Center" HorizontalOptions="Start" Grid.Column="0"/>
+                                    <HorizontalStackLayout HorizontalOptions="Center" Spacing="20" Grid.Column="1">
+                                        <Label VerticalOptions="Center" Text="Priority:"/>
+                                        <Label VerticalOptions="Center" Text="{Binding Priority}"/>
+                                        <Label VerticalOptions="Center" Text="{Binding Todo}" TextColor="White" FontAttributes="Bold" Margin="10,0" FontSize="Medium"/>
+                                        <Label VerticalOptions="Center" Text="{Binding DateTime}"/>
+                                    </HorizontalStackLayout>
+                                </Grid>
+                            </Frame>
                         </toolkit:Expander.Header>
                         <Grid HeightRequest="200" Margin="10">
                             <Grid.RowDefinitions>

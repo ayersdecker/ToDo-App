@@ -29,7 +29,7 @@
     <AppXManifest Include="C:\Users\ayers\source\repos\TodoV2\LoanCalculator2\LoanCalculator2\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-09-24T21:03:27.821</Modified>
+      <Modified>2023-09-24T21:18:55.606</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -43,11 +43,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ayers\source\repos\TodoV2\LoanCalculator2\LoanCalculator2\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\LoanCalculator2.dll">
       <PackagePath>LoanCalculator2.dll</PackagePath>
-      <Modified>2023-09-24T21:03:25.925</Modified>
+      <Modified>2023-09-24T21:18:54.683</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ayers\source\repos\TodoV2\LoanCalculator2\LoanCalculator2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>LoanCalculator2.exe</PackagePath>
-      <Modified>2023-09-24T21:03:25.947</Modified>
+      <Modified>2023-09-24T21:18:54.689</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ayers\source\repos\TodoV2\LoanCalculator2\LoanCalculator2\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\LoanCalculator2.deps.json">
       <PackagePath>LoanCalculator2.deps.json</PackagePath>
