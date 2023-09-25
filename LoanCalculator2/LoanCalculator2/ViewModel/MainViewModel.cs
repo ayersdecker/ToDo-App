@@ -43,7 +43,7 @@ namespace LoanCalculator2.ViewModel
             Items.Add(new TodoModel(Text));
             //add our item
             Text = string.Empty;
-        }
+        } 
         
 
         [RelayCommand]
