@@ -13,16 +13,13 @@ public partial class MainPage : ContentPage
 		BindingContext = vm;
 	}
 
-    private void Picker_Unfocused(object sender, FocusEventArgs e)
-    {
-		string selected = (string)((Picker)sender).SelectedItem;
-		TodoModel todo = sender as TodoModel;
-        todo.Priority = selected;
-    }
 
-    private void Save_Clicked(object sender, EventArgs e)
+    public void Save_Clicked(object sender, EventArgs e)
     {
        
+       
+        
+        
     }
 }
 
