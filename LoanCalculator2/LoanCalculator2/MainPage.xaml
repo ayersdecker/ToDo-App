@@ -67,7 +67,7 @@
                                     <x:String>Low</x:String>
                                 </Picker.Items>
                             </Picker>
-                            <Button Grid.Row="3" Grid.Column="0" Text="Save" Clicked="Save_Clicked"/>
+                            <Button Grid.Row="3" Grid.Column="0" Text="Save" Clicked="Save_Clicked" BackgroundColor="#000" TextColor="Yellow" WidthRequest="100" HeightRequest="50"/>
                             <Editor x:Name="DescBox" Placeholder="Description Goes Here" Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="0" Grid.RowSpan="2" Text="{Binding Description}" TextColor="White"/>
                         </Grid>
                     </toolkit:Expander>
